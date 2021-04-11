@@ -1,0 +1,187 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+
+.nav-bar {
+  flex-direction: column;
+}
+
+ul.nav-links {
+  display: none;
+}
+
+i.toggle {
+  align-self: flex-end;
+  display: initial;
+  position: absolute;
+  cursor: pointer;
+}
+
+.Navbar__ToggleShow {
+  display: flex;
+}
+
+/* Hero Section */
+
+div.hero-section {
+  height: 25vh;
+}
+
+div.hero-content-heading {
+  margin-top: -5rem;
+}
+
+div.hero-content-heading h3{
+ text-align: center;
+ 
+}
+
+div.hero-content-heading p{
+  display: none;
+}
+
+div.hero-content-btn {
+  padding-top: 2rem;
+}
+
+div.hero-content-btn a {
+  padding: 10px;
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+div.hero-background {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div.background p {
+  font-size: 0.75rem;
+}
+
+div.background h4 {
+  padding-bottom: 5px;
+}
+
+div.hero-background .background h4{
+  padding-top: 5px;
+}
+
+div.hero-background-pos {
+  display: none;
+}
+
+/* Snapshot */
+div.snapshot-team p {
+  font-size: 0.9rem;
+  letter-spacing: normal;
+}
+
+div.snapshot-box .snapshot-box-content {
+  display: block;
+  padding: 1rem;
+}
+
+div.snapshot-box .snapshot-box-content .box1, .box3 {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+div.snapshot-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.snapshot-box-content {
+  margin-top: -10px;
+}
+
+div.box1 {
+ height: 100px;
+ /* align-items: center; */
+ /* align-content: center; */
+  /* margin: 2px; */
+}
+
+
+div.box1 h5 {
+  margin-top: -2rem;
+}
+
+div.box3 h5 {
+  margin-top: -2rem;
+}
+
+div.box3 {
+  height: 100px;
+ }
+
+div.circle {
+  width: 70px;
+  height: 70px;
+  margin-top: -5px;
+}
+
+
+/* Gallery Section */
+
+div.gallery-section {
+  padding: 20px;
+}
+
+div.gallery-content {
+  padding-top: 0px;
+}
+
+div.gallery-img {
+  padding-top: 15px;
+}
+
+div.gallery-img img {
+  height: 150px;
+}
+
+div.gallery-img .first-two{
+  display: none;
+}
+
+/* Footer */
+div.footer-input {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input[type="text"] {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  width: 50%;
+}
+
+div.footer-textarea {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+textarea {
+  width: 50%;
+  padding: 10px;
+  margin-left: -10px;
+}
+
+div.footer h6 {
+  padding-top: 20px;
+}
